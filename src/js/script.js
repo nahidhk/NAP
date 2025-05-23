@@ -58,6 +58,10 @@ function loginapp() {
         document.getElementById("loginform").action= "dash";
         
         document.getElementById("loginform").submit();
+        sessionStorage.setItem("login",true);
+        sessionStorage.setItem("username", inputUser);
+        sessionStorage.setItem("token", inputToken);
+        sessionStorage.setItem("password", inputPass);
 
     } else {
         alert("❌ Login Failed!");

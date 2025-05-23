@@ -16,12 +16,6 @@ const username = document.getElementById("username");
 const key = document.getElementById("key");
 
 
-
-
-
-
-
-
 function login() {
     const loginform = document.getElementById("loginform");
     const mypassword = document.getElementById("password").value;
@@ -34,3 +28,26 @@ function login() {
     }
 
 }
+
+
+
+fetch('/config.json')
+    .then(response => response.json())
+    .then(data => {
+        if (data && data.length > 0) {
+        
+            username.value = data[0].username;
+            key.value = data[0].token;
+
+            
+            const dBusername = data[0].username;
+            const dBpassword = data[0].password;
+            const dBtoken = data[0].token;
+
+            
+            console.log("DB Username:", dBusername);
+        } else {
+            console.warn("Data is empty or undefined.");
+        }
+    })
+    .catch(error => console.error('Error loading JSON:', error));

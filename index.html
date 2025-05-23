@@ -13,7 +13,7 @@
     <div class="darkbox">
         <div class="popup">
             <div class="loginbox">
-                <form action="">
+                <form id="loginform">
                     <!-- username input -->
                     <div class="inputbox">
                         <div>
@@ -35,11 +35,11 @@
                         <div>
                             <i class="fas fa-key iicon"></i>
                         </div>
-                        <input id="key" type="text" class="inputfld" placeholder="Key" required>
+                        <input id="key" type="text" id="key" class="inputfld" placeholder="Key" required>
                     </div>
                     <!-- login button -->
                     <div class="inputbox">
-                        <button type="submit" class="fullbtn">Login</button>
+                        <button onclick="login()" type="button" class="fullbtn">Login</button>
                     </div>
                     
                 </form>

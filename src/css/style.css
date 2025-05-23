@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.darkbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginbox {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputbox {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+margin: 10px;
+}
+
+.iicon {
+    margin: 3px;
+    font-size: 15pt;
+    color: #252525;
+}
+.inputfld {
+   
+    width: 100%;
+    margin-left: 5px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: #4680ff;
+    border-radius: 10px;
+}
+.pointer {
+    cursor: pointer;
+    color-scheme: dark;
+    color: #4680ff;
+}
+.fullbtn{
+  height: 30px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

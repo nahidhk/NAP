@@ -14,7 +14,7 @@
             </div>
             <div class="menu">
                 <button class="navbtn btn"><i class="fas fa-cog iconx"></i>Config</button>
-                <button class="navbtn btn"><i class="fas fa-right-from-bracket iconx"></i>Logout</button>
+                <button onclick="logouti()" class="navbtn btn"><i class="fas fa-right-from-bracket iconx"></i>Logout</button>
                 
             </div>
         </div>
@@ -22,15 +22,75 @@
 
 
 
+    <!-- The account and connfig  -->
+
+    <div class="darkbox">
+        <div class="popup">
+            <div class="underline">
+                Config Account
+            </div>
+            <blockquote>
+            
+                    <div class="inputbox">
+                        <div>
+                            <i class="fas fa-user iicon"></i>
+                        </div>
+                        <input id="username" type="text" class="inputfld" placeholder="Username" required>
+                    </div>
+
+
+                    <div class="inputbox">
+                        <div>
+                            <i class="fas fa-lock iicon"></i>
+                        </div>
+                        <input id="password" type="password" class="inputfld password" placeholder="Password" required>
+                        <div onclick="showpass()" class="pointer">
+                            <i class="fas fa-eye iicon passicon"></i>
+                        </div>
+                    </div>
+
+                    <div class="inputbox">
+                        <div>
+                            <i class="fas fa-key iicon"></i>
+                        </div>
+                        <input id="key" type="text" class="inputfld" placeholder="Key" required>
+                    </div>
+
+
+                    <div class="inputbox">
+                        <div>
+                            <i class="fas fa-envelope iicon"></i>
+                        </div>
+                        <input type="email" class="inputfld" placeholder="Email" required>
+                    </div>
+
+                    <p>
+                        Up To Date and  Linux Command
+                    </p>
+
+                    <code>
+                        $ sudo apt update && sudo apt upgrade -y
+                    </code> <br>
+                    <code>
+                        $ sudo apt install python3-pip -y
+                    </code> <br>
+                    <code>
+                        $ sudo nano config.json
+                    </code>
+
+            </blockquote>
+        </div>
+    </div>
+
+
     <!-- javascript -->
-
-
-
     <!-- font awesome js working -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
         integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <!-- site js -->
-        <script src="src/js/script.js"></script>
+                 <script src="/src/js/login.js"></script>
+    <script src="/src/js/main.js"></script>
+
 </body>
 </html>

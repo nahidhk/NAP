@@ -102,3 +102,11 @@ h1{
     color: #4680ff;
     padding: 0 4px;
 }
+.underline {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(to right, #4680ff, #ff0000);
+    border-image-slice: 1;
+}

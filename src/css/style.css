@@ -110,3 +110,6 @@ h1{
     border-image-source: linear-gradient(to right, #4680ff, #ff0000);
     border-image-slice: 1;
 }
+.vcc{
+    display: none;
+}

@@ -13,7 +13,7 @@
                 <h1>NAP Dashboard</h1>
             </div>
             <div class="menu">
-                <button class="navbtn btn"><i class="fas fa-cog iconx"></i>Config</button>
+                <button onclick="openpopup('configPopup')" class="navbtn btn"><i class="fas fa-cog iconx"></i>Config</button>
                 <button onclick="logouti()" class="navbtn btn"><i class="fas fa-right-from-bracket iconx"></i>Logout</button>
                 
             </div>
@@ -24,7 +24,7 @@
 
     <!-- The account and connfig  -->
 
-    <div class="darkbox vcc">
+    <div id="configPopup" class="darkbox vcc">
         <div class="popup">
             <div class="underline">
                 Config Account

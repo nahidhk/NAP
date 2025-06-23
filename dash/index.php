@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAP Dashboard</title>
@@ -66,19 +66,6 @@
 
 
 
-
-
-
-    <h1>Install your custome web Server Tools...</h1>
-    <p>
-        use fontend - HTML , PHP
-    </p>
-    <p>
-        use backend - Python , Nodejs , PHP
-    </p>
-    <p>
-        use database - MySQL , MongoDB , SQLite
-    </p>
 
 
 

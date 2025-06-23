@@ -11,4 +11,4 @@ function openpopup(loaddata){
 }
 function closepopup(loaddata){
     document.getElementById(loaddata).style.display = "none";
-}
+}   

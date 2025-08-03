@@ -25,13 +25,6 @@ if "." not in email.split("@")[1]:
 if email.split("@")[1].count(".") < 1:
     print("Invalid email format")
     exit(1)
-website = input("Enter your Domain: ")
-if website == "":
-    print("Domain cannot be empty")
-    exit(1)
-if website[0] == ".":
-    print("Domain cannot start with a dot")
-    exit(1)
 
 users = [
     {
@@ -39,7 +32,6 @@ users = [
         "password": password,
         "email": email,
         "token": key,
-        "domain": website,
     }
 ]
 

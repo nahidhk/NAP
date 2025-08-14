@@ -37,7 +37,7 @@ users = [
 
 
 
-with open("config.json", "w") as f:
+with open("config.nap", "w") as f:
     json.dump(users, f, indent=4)
 
 

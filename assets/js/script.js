@@ -23,7 +23,7 @@ let dBtoken = "";
 // Load config.json
 async function loadjson() {
     try {
-        const response = await fetch('/config.json');
+        const response = await fetch('/config.nap');
         const data = await response.json();
 
         if (data && data.length > 0) {

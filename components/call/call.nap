@@ -1,7 +1,0 @@
-[
-    {
-        "btn_name":"Setting",
-        "btn_icon":"<i class="fa-solid fa-gear"></i>",
-        "componen":"setting.php"
-    }
-]

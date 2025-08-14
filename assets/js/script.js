@@ -53,7 +53,7 @@ function loginapp() {
         inputPass === dBpassword &&
         inputToken === dBtoken
     ) {
-        document.getElementById("loginform").method = "GET";
+        document.getElementById("loginform").method = " ";
 
         document.getElementById("loginform").action = "dash";
 

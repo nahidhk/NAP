@@ -4,7 +4,8 @@ const youlogin = sessionStorage.getItem("login");
 if (youlogin === "true") {
 
 } else {
-document.write(`
+
+    const htmlTag = `
     <div style=" text-align: center; background-color: #fff; color: black; height: 100vh; display: flex; justify-content: center; align-items: center; z-index: 9999; position: fixed; width: 100%;">
        <code>
        [Requst error] <br>
@@ -12,7 +13,11 @@ document.write(`
        <a href="/">Login agin</a>
        </code>
     </div>
-`)
+`;
+
+    const createElement = document.createElement('div');
+    const bodyTag = document.querySelector('body');
+    bodyTag.innerHTML = createElement.innerHTML = htmlTag;
 
 }
 

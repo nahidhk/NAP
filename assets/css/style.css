@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -36,7 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-margin: 10px;
+    margin: 10px;
 }
 
 .iicon {
@@ -44,8 +45,9 @@ margin: 10px;
     font-size: 15pt;
     color: #252525;
 }
+
 .inputfld {
-   
+
     width: 100%;
     margin-left: 5px;
     padding: 8px;
@@ -54,20 +56,23 @@ margin: 10px;
     color: #4680ff;
     border-radius: 10px;
 }
+
 .pointer {
     cursor: pointer;
     color-scheme: dark;
     color: #4680ff;
 }
-.fullbtn{
-  height: 30px;
-  width: 100%;
-  background-color: #000;
-  color: #fff;
-  outline: none;
-  border: none;
-  cursor: pointer;
+
+.fullbtn {
+    height: 30px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
+
 .nav {
     background-color: #cecece;
     color: rgb(0, 0, 0);
@@ -78,8 +83,10 @@ margin: 10px;
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 100;
 }
-.logo{
+
+.logo {
     font-size: 24px;
     font-weight: bold;
     color: #000000;
@@ -87,7 +94,8 @@ margin: 10px;
     padding: 10px;
     cursor: pointer;
 }
-.btn{
+
+.btn {
     height: 35px;
     width: auto;
     padding: 0 8px 0 8px;
@@ -99,21 +107,29 @@ margin: 10px;
     cursor: pointer;
     font-size: 15px;
 }
-.sidemenu{
+
+.sidemenu {
     height: 100vh;
     overflow: scroll;
     width: 400px;
     background-color: #efeded;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.minbtn{
+
+.minbtn {
     height: 20px;
     width: 100%;
     background-color: #cecece;
     padding: 10px;
     margin-bottom: 5px;
     cursor: pointer;
-}
 
+}
+.zra{
+    overflow: scroll;
+    height: 100vh;
+    width: auto;
+}

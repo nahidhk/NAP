@@ -1,0 +1,18 @@
+[
+    {
+        "btn_name":"Setting",
+        "btn_icon":"<i class='fa-solid fa-gear'></i>",
+        "componen":"setting.php"
+    },
+    {
+        "btn_name":"server",
+        "btn_icon":"<i class='fa-solid fa-server'></i>",
+        "componen":"server.php"
+    }
+    ,
+    {
+        "btn_name":"PHP Version",
+        "btn_icon":"<i class='fa-brands fa-php'></i>",
+        "componen":"v.php"
+    }
+]

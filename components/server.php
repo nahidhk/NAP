@@ -52,8 +52,8 @@ if (file_exists($jsonPath)) {
                 </tr>
                 <?php endforeach; ?>
                 <tr>
-                    <td class="w300">Agent</td>
-                    <td><?php echo htmlspecialchars($user_agent) ?></td>
+                    <td class="w300">Network</td>
+                    <td><?php echo "Web Server" ?></td>
                 </tr>
 
             </tbody>

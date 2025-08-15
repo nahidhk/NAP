@@ -59,4 +59,39 @@ if (file_exists($jsonPath)) {
             </tbody>
         </table>
     </div>
+    <hr>
+    <h2>Install Components</h2>
+    <hr>
+    <div class="popup w300">
+        <form action="" method="post">
+            <div class="inputbox">
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles iicon"></i>
+                </div>
+                <input type="text" class="inputfld" name="title" placeholder="Input Title">
+            </div>
+
+            <div class="inputbox">
+                <div>
+                    <i class="fa-solid fa-file iicon"></i>
+                </div>
+                <input type="text" class="inputfld" name="fileName" placeholder="Input File Name => components.php">
+            </div>
+
+            <div class="inputbox">
+                <div>
+                    <i class="fa-solid fa-icons iicon"></i>
+                </div>
+                <input type="text" class="inputfld" name="fileName" placeholder="<i class='fa-ex fa-ex'></i>">
+            </div>
+            <div class="inputbox">
+                <button  type="submit" class="fullbtn">Create</button>
+            </div>
+
+
+
+
+
+        </form>
+    </div>
 </blockquote>

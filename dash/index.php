@@ -15,7 +15,7 @@
     <div>
         <?php include '../components/sideMenu.php' ?>
     </div>
-    <div class="zra">
+    <div class="zra w100">
         <br><br><br>
         <?php $urlx= $_GET['f'];?>
         <?php include '../components/'.$urlx ?>

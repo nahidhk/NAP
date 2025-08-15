@@ -133,3 +133,33 @@ body {
     height: 100vh;
     width: auto;
 }
+.tcenter{
+    text-align: center;
+}
+.w100{
+    width: 100%;
+}
+
+table.blueTable {
+  border: 1px solid #000000;
+  background-color: #A7CEE9;
+  width: 800px;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable td:nth-child(even) {
+  background: #D7D7D7;
+}
+.w300{
+    width: 300px;
+}
+.center{
+    justify-content: center;
+}

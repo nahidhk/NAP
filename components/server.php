@@ -4,7 +4,7 @@ $hostname = gethostbyaddr($ip);
 $datetime = date("l, d F Y H:i:s");
 $user_agent = $_SERVER['HTTP_USER_AGENT'];
 
-$jsonPath = __DIR__ . "/../config.nap"; // এক লেভেল উপরে গিয়ে config.nap
+$jsonPath = __DIR__ . "/../config.nap";
 if (file_exists($jsonPath)) {
     $jsonData = file_get_contents($jsonPath);
     $data = json_decode($jsonData, true);

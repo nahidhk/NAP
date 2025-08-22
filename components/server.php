@@ -63,26 +63,26 @@ if (file_exists($jsonPath)) {
     <h2>Install Components</h2>
     <hr>
     <div class="popup w300">
-        <form action="" method="post">
+        <form action="apply.php" method="post">
             <div class="inputbox">
                 <div>
                     <i class="fa-solid fa-wand-magic-sparkles iicon"></i>
                 </div>
-                <input type="text" class="inputfld" name="title" placeholder="Input Title">
+                <input type="text" class="inputfld" name="title" placeholder="Input Title" required>
             </div>
 
             <div class="inputbox">
                 <div>
                     <i class="fa-solid fa-file iicon"></i>
                 </div>
-                <input type="text" class="inputfld" name="fileName" placeholder="Input File Name => components.php">
+                <input type="text" class="inputfld" name="fileName" placeholder="Input File Name => components.php" required>
             </div>
 
             <div class="inputbox">
                 <div>
                     <i class="fa-solid fa-icons iicon"></i>
                 </div>
-                <input type="text" class="inputfld" name="fileName" placeholder="<i class='fa-ex fa-ex'></i>">
+                <input type="text" class="inputfld" name="fileIcon" placeholder="<i class='fa-ex fa-ex'></i>" required>
             </div>
             <div class="inputbox">
                 <button  type="submit" class="fullbtn">Create</button>

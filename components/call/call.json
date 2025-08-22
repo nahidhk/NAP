@@ -1,25 +1,32 @@
 [
     {
-        "btn_name":"Home",
-        "btn_icon":"<i class='fa-solid fa-house'></i>",
-        "componen":"home.php"
+        "btn_name": "Home",
+        "btn_icon": "<i class='fa-solid fa-house'><\/i>",
+        "componen": "home.php"
     },
     {
-        "btn_name":"Setting",
-        "btn_icon":"<i class='fa-solid fa-gear'></i>",
-        "componen":"setting.php"
+        "btn_name": "Setting",
+        "btn_icon": "<i class='fa-solid fa-gear'><\/i>",
+        "componen": "setting.php"
     },
     {
-        "btn_name":"server",
-        "btn_icon":"<i class='fa-solid fa-server'></i>",
-        "componen":"server.php"
-    }
-    ,
+        "btn_name": "server",
+        "btn_icon": "<i class='fa-solid fa-server'><\/i>",
+        "componen": "server.php"
+    },
     {
-        "btn_name":"PHP Version",
-        "btn_icon":"<i class='fa-brands fa-php'></i>",
-        "componen":"v.php"
+        "btn_name": "PHP Version",
+        "btn_icon": "<i class='fa-brands fa-php'><\/i>",
+        "componen": "v.php"
+    },
+    {
+        "btn_name": "ecampule",
+        "componen": "my.php",
+        "btn_icon": "<i><i>"
+    },
+    {
+        "btn_name": "hello",
+        "componen": "hello.php",
+        "btn_icon": "<i class='fa-regular fa-headphones'><\/i>"
     }
-    
-    
 ]

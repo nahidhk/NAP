@@ -1,7 +1,19 @@
+<?php
+$fileName = "z.php";
+$fileData = "\n<?php echo 'another line'; ?>";
+
+// ফাইলে নতুন ডাটা **শেষে যোগ হবে**
+file_put_contents($fileName, $fileData, FILE_APPEND);
+
+echo "ফাইলে ডাটা অ্যাড হয়েছে!";
+?>
+
+
+
+
 
 <?php
-$fileData = "<?php echo 'create z.php'; ?> "; // z.php ফাইলের কন্টেন্ট
-$fileName = "z.php"; // ফাইল নাম
-file_put_contents($fileName, $fileData); // ফাইল তৈরি এবং কন্টেন্ট লিখে
-header("Location: z.php"); // z.php-এ রিডাইরেক্ট করে
+//file_put_contents($fileName, $fileData); 
+//header("Location: z.php"); 
+
 ?>

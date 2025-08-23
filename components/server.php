@@ -82,7 +82,7 @@ if (file_exists($jsonPath)) {
                 <div>
                     <i class="fa-solid fa-icons iicon"></i>
                 </div>
-                <input type="text" class="inputfld" name="fileIcon" placeholder="<i class='fa-ex fa-ex'></i>" required>
+                <input type="text" class="inputfld" name="fileIcon" placeholder="fa-ex fa-ex" required>
             </div>
             <div class="inputbox">
                 <button  type="submit" class="fullbtn">Create</button>

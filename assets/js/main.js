@@ -36,7 +36,7 @@ function onloadmy() {
                 const card = document.createElement('div');
                 card.classList.add('card');
 
-                // JSON.stringify ব্যবহার করে onclick-এ object pass করা
+               
                 const obj = {
                     id: item.btn_name,
                     url: item.componen
@@ -44,7 +44,7 @@ function onloadmy() {
 
                 card.innerHTML = `
                     <div class="minbtn" id="active-${item.btn_name}" onclick='callurlx(${JSON.stringify(obj)})'>
-                        ${item.btn_icon}&nbsp;${item.btn_name}
+                        <i class="${item.btn_icon}"></i>&nbsp;${item.btn_name}
                     </div>
                 `;
 

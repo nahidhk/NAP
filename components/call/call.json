@@ -5,23 +5,8 @@
         "componen": "server.php"
     },
     {
-        "btn_name": "Home",
-        "btn_icon": "fa-solid fa-house",
-        "componen": "home.php"
-    },
-    {
-        "btn_name": "Setting",
-        "btn_icon": "fa-solid fa-gear",
-        "componen": "setting.php"
-    },
-    {
         "btn_name": "PHP Version",
         "btn_icon": "fa-brands fa-php",
         "componen": "v.php"
-    },
-    {
-        "btn_name": "Databases",
-        "componen": "database.php",
-        "btn_icon": "fa-solid fa-database"
     }
 ]

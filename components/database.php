@@ -1,1 +1,0 @@
-<div style='padding: 10px; border: 1px solid #ccc; border-radius: 5px;'><h1> <i class='fa-solid fa-database'></i> <br> Databases</h1><p>Edit this /components/database.php</p></div>
